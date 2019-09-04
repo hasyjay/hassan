@@ -1,18 +1,16 @@
-
  <!DOCTYPE html>
 <html>
     <head>
-        
+        <link rel="stylesheet" href="hassan.css">
         <title>Welcome | Hassan CV</title>
-        <link rel="stylesheet"  type="text/css" href= "hassan.css">
     </head>
     <body>
-   <h1><b>ABDULLAHI HASSAN</b></h1><br><br><br><br>
-   <img src="https://res.cloudinary.com/hasyjay/image/upload/v1566515667/IMG_20190226_164103_289_exzzjz.jpg"  alt="My picture" width="500px" height="300">
+   <h1><b>ABDULLAHI HASSAN</b></h1><br><br>
+   <img src="https://res.cloudinary.com/hasyjay/image/upload/v1566515667/IMG_20190226_164103_289_exzzjz.jpg" alt="My picture" width="500px" height="300">
                             <!-- PERSONAL DETAILS -->
    <h2><b>PERSONAL DETAILS</b></h2>
    <ul>
-       <li><b>Date of Birth:</b>        <span id ="details1">9th March 1999</span></li>
+        <li><b>Date of Birth:</b>        <span id ="details1">9th March 1999</span></li>
        <li><b>Marital Status:</b>:      <span id="details2">Single</span></li>
        <li><b>Sex:</b>                  <span id ="details3">Male</span></li>
        <li><b>State Of Origin:</b>      <span id="details4">Kogi State</span></li>
@@ -30,18 +28,17 @@
        
    </ul>
                             <!-- OBJECTIVES -->
-   <h2><b>OBJECTIVES</b></h2>
+   <h2>OBJECTIVES</h2>
    <p>To take up challenges in a forwarding looking organization, hardworking dedication to duties, honesty where team works are cherished, good working relationship with existing staff.
     </p>
                             <!-- SKILLS -->
     <h2><b>PERSONAL SKILLS AND QUALITY</b></h2>
-    <ul id="skillsets">
+    <ul>
             <li>Always willing to learn quickly in any situation </li>
             <li>Self-motivated and target oriented </li>
             <li>Good interpersonal skills</li>
             <li>Excellent customer relationship</li>
             <li>Good team spirit </li>
-            <li>Proficient in HTML & CSS </li>
             <li>Ability to work under pressure with minimum supervision </li>
             <li>Ability to work in a high degree of self – innovation  </li>
             <li>Computer literate </li>
@@ -62,6 +59,31 @@
     <h2>REFEREES</h2>
     <P>Sikirat Abdullahi (MUM)</P>
     <P>08135876446</P>
+
+    <span id="successmessage">Your Message has been succesfully sent to Hassan</span>
+    
+        <h2>FILL THE FORM BELOW TO CONTACT ME </h2>
+        <div class="error">
+
+                
+        </div>
+        
+        <div id="contact-me">
+    <form><h3><label for="username" id="centree">NAME</label></h3>
+        <input type="text" id="username" name="username" placeholder="Your First Name Only"  required>
+        <h3><label for="email" id="centree">EMAIL</label></h3>
+        <input type="text" id="email" name="email" placeholder="Valid Email Address here" required>
+        <h3><label for="title" id="centree">TITLE</label></h3>
+        <input type="text" id="title" name="title" placeholder="Message Title (30 characters only)" required>
+        
+       <h3><label for="message" id="centree">MESSAGE</label><br></h3>
+        <textarea id="messaging">Enter your message here</textarea><br>
+        <button type="submit">SEND MESSAGE</button>
+    </form>
+    
+    </div>
+    <script src="hassan.js"></script>
     </body>
 </html>
+
 
