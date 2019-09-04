@@ -12,6 +12,7 @@ width: 100%;
 background-color: rgb(56, 66, 53);
 color: white;
 text-align: center;
+
 }
 
 
@@ -47,6 +48,7 @@ img {
    border: solid black 5px;
    border-radius: 90%;
    margin-left: 59%;
+   
 }
 
 img:hover {
@@ -95,3 +97,60 @@ img:hover {
    
    
 }
+
+#contact-me {
+   line-height: 20px;
+   align-content: center;
+   float: right;
+   padding-right: 50%;
+   font-size: 3px;
+   
+}
+
+input {
+
+   
+   padding-right: 10%;
+   margin-left: -100%;
+   width: 200%;
+   border: 3px solid rgba(214, 210, 210, 0.781);;
+   
+   
+}
+label#centree {
+ font-size: 16px;
+ margin-left: 2%;
+ font-weight: bold;
+ font-family: verdana;
+ 
+}
+
+textarea {
+   padding-right: 10%;
+   margin-left: -100%;
+   width: 200%;
+   border: 3px solid rgba(214, 210, 210, 0.781);;
+}
+
+button {
+
+ 
+   width: 200%;
+   border: 3px solid rgba(214, 210, 210, 0.781);
+   margin-left: -95%;
+   color: black;
+   font-weight: bold;
+   font-size: 20px;
+   border-radius: 10px;
+}
+
+#successmessage {
+
+   font-size: 20px;
+   width: 50%;
+   margin-left: 30%;
+   background-color: green;
+   display: none;
+}
+
+                              
