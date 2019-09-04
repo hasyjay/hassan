@@ -1,0 +1,97 @@
+body {
+    background-color: white;
+    font-family: verdana;
+}    
+
+h1 {
+
+position: fixed;
+padding: 5px 0 0;
+margin: 0;
+width: 100%;
+background-color: rgb(56, 66, 53);
+color: white;
+text-align: center;
+}
+
+
+
+h2 {
+
+   text-align: center;
+   width: 100%;
+   background-color: rgba(214, 210, 210, 0.781);
+   line-height: 90px;
+}
+
+
+
+ul {
+
+   line-height: 50px;
+   
+}
+
+ul#skillsets {
+
+list-style: initial;
+font-family: verdana;
+}
+
+p {
+
+   margin-left: 3%;
+}
+
+img {
+   border: solid black 5px;
+   border-radius: 90%;
+   margin-left: 59%;
+}
+
+img:hover {
+
+   color: rgb(56, 66, 53);
+   opacity: 1%;
+}
+
+#details1 {
+   margin-left: 25%;
+   
+   
+}
+#details2 {
+   margin-left: 24%;
+   
+   
+}
+#details3 {
+   margin-left: 32%;
+   
+   
+}
+#details4 {
+   margin-left: 24%;
+   
+   
+}
+#details5 {
+   margin-left: 28%;
+   
+   
+}
+#details6 {
+   margin-left: 30%;
+   
+   
+}
+#details7 {
+   margin-left: 29%;
+   
+   
+}
+#details8 {
+   margin-left: 26.9%;
+   
+   
+}
